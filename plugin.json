@@ -13,7 +13,7 @@
         },
         {
             "title": "Poll",
-            "name": "pollSeconds",
+            "name": "poll",
             "description": "The Poll Interval to call the command. Defaults 5 seconds",
             "type": "string",
             "default": 5,
