@@ -1,8 +1,8 @@
 {
     "description": "Test Plugin",
-    "command": "bash index.sh $(Name) $(pollInterval) $(data)",
+    "command": "bash index.sh $(name) $(pollInterval) $(data)",
     "metrics" : [ "TEST_METRIC"],
-    "paramArray" : { "itemTitle" : ["name"], "schemaTitle" : "Instance"},
+    "paramArray" : true,
     "paramSchema": [
         {
             "title": "Name",
