@@ -1,6 +1,6 @@
 {
     "description": "Test Plugin",
-    "command": "bash index.sh $(name) $(pollSeconds) $(data)",
+    "command": "bash index.sh $(name) $(poll) $(data)",
     "metrics" : [ "TEST_METRIC"],
     "paramSchema": [
         {
@@ -12,7 +12,7 @@
             "required": false
         },
         {
-            "title": "Poll Time (sec)",
+            "title": "Poll",
             "name": "pollSeconds",
             "description": "The Poll Interval to call the command. Defaults 5 seconds",
             "type": "string",
