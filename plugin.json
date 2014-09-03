@@ -1,6 +1,6 @@
 {
     "description": "Test Plugin",
-    "command": "bash index.sh",
+    "command": "bash index.sh $(data)",
     "metrics" : [ "TEST_METRIC"],
     "paramArray" : { "itemTitle" : ["name"], "schemaTitle" : "Instance"},
     "paramSchema": [
