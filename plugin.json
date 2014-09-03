@@ -1,7 +1,7 @@
 {
     "description": "Test Plugin",
     "command": "bash index.sh $(name) $(pollInterval) $(data)",
-    "metrics" : [ "BOUNDARY_TEST_METRIC"],
+    "metrics" : [ "TEST_METRIC"],
     "paramSchema": [
         {
             "title": "Name",
