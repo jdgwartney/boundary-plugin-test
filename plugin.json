@@ -10,7 +10,7 @@
             "description": "Name of this metric configuration",
             "type": "string",
             "default": "",
-            "required": true
+            "required": false
         },
         {
             "title": "Poll Time (sec)",
