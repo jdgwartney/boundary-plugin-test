@@ -1,0 +1,32 @@
+{
+    "description": "Test Plugin",
+    "command": "bash index.sh $(name) $(pollInterval) $(data)",
+    "metrics" : [ "BOUNDARY_TEST_METRIC"],
+    "paramSchema": [
+        {
+            "title": "Name",
+            "name": "name",
+            "description": "Name of this metric configuration",
+            "type": "string",
+            "default": "",
+            "required": true
+        },
+        {
+            "title": "Poll Time (sec)",
+            "name": "pollInterval",
+            "description": "The Poll Interval to call the command. Defaults 5 seconds",
+            "type": "string",
+            "default": 5,
+            "required": false
+        },
+        {
+            "title": "Data",
+            "name": "data",
+            "description": "Data to pass to the script",
+            "type": "string",
+            "default": "",
+            "required": false
+        }
+    ]
+}
+
